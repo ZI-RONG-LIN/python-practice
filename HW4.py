@@ -81,3 +81,14 @@ for i in range(1,N):
 print(result-sum)
 
 #4.A
+#巢狀迴圈
+#ex:input(3)
+#output:
+#1
+#12
+#123
+a = int(input())
+for i in range(1,a+1):
+  for j in range(1,i+1):
+    print(j,end="")
+  print()
