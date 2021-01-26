@@ -2,7 +2,7 @@
 a = int(input())
 b = int(input())
 c = int(input())
-print(a + b +ｃ)
+print(a + b +c)
 
 #1.2
 b = int(input())
