@@ -114,6 +114,23 @@ s = input()
 # print(s)
 print(s[:s.find('h')]+s[s.rfind('h'):s.find('h'):-1]+s[s.rfind('h'):])
 
+#5.9
+# Read a string:
+s = input()
+# Print a string:
+# print(s)
+#取代指定字
+#前面放的是要被取代的對象，後面則是放想用什麼東西替換掉前面的文字
+print(s.replace('1', 'one'))
+
+#5.A
+#把字串中的@刪掉
+# Read a string:
+s = input()
+# Print a string:
+# print(s)
+print(s.replace('@',''))
+
 #5.B
 #replace('bar', 'pub', 1)，後面的1指的是取代1次，不是索引的位置
 #會從左至右開始取代，所以如果改2，則會取代前2個指定字串
