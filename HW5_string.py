@@ -69,7 +69,10 @@ elif s.count('f') == 0 :
 else:
   print(s.find('f'))
 #解二
+#s.find('f') == s.rfind('f')，用find跟rfind最後出來的位置都是從左至右的索引值
+#不會因為從後面數來，索引就改變
 s = input()
+#如果s.find('f') == s.rfind('f')位置相同，則代表只有1個指定字元
 if s.find('f') == s.rfind('f'):
   print(s.find('f'))
 else:
@@ -110,6 +113,12 @@ s = input()
 # Print a string:
 # print(s)
 print(s[:s.find('h')]+s[s.rfind('h'):s.find('h'):-1]+s[s.rfind('h'):])
+
+#5.B
+#replace('bar', 'pub', 1)，後面的1指的是取代1次，不是索引的位置
+#會從左至右開始取代，所以如果改2，則會取代前2個指定字串
+#但如果希望1.3.5個位置取代，2.4.6個不取代，則需要切割字串之後各別做完再合併
+
 
 #5.C
 # 把可以被3整除的位置的字拿掉
