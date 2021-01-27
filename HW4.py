@@ -82,6 +82,7 @@ print(result-sum)
 
 #4.A
 #巢狀迴圈
+#如果想讓印出的東西在不同行的話，中間可以插入print()，就可以換行了
 #ex:input(3)
 #output:
 #1
